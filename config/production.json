@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://admin123:admin@cluster0.dns7f.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "gitClientId": "ffbdd731b31632184f27",
+  "gitClientSecret": "70a68e4477d051002e8d1119eef5ab86dc730c12"
+}

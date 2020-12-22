@@ -310,9 +310,9 @@ router.delete('/education/:ed_id', auth, async (req, res) => {
 //@desc GET the GitHub
 //@route GET api/profile/github/:username
 
-router.get('/github/:userGit', async (req, res) => {
+router.get('/github/:username', async (req, res) => {
   try {
-    console.log(req.params.userGit);
+    console.log(req.params.username);
     const options = {
       uri:
         'https://api.github.com/users/' +
